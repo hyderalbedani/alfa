@@ -42,7 +42,7 @@ client.on('message', message => { // هاذا للبرودكسات
             var bc = new Discord.RichEmbed()
             .addField('» سيرفر الفا لالعاب الحاسوب :', `${message.guild.name}`)
             .addField('» server alfa : ', `${message.author.username}#${message.author.discriminator}`)
-            .addField(' » منورين اعضائنا الكرام للتواجد بالسيرفر في غرفة العمليات لرغض عمل تيمات بكافة العاب الحاسوب : ', args)
+            .addField(' » منورين اعضائنا الكرام للتواجد بالسيرفر في غرفة العمليات لغرض عمل تيمات بكافة العاب الحاسوب : ', args)
             .setColor('#000000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
