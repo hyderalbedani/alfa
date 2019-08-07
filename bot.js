@@ -40,9 +40,9 @@ client.on('message', message => { // هاذا للبرودكسات
 				        message.guild.members.forEach(m => {
    if(!message.member.hasPermission('ADMINISTRATOR')) return;
             var bc = new Discord.RichEmbed()
-            .addField('» السيرفر :', `${message.guild.name}`)
-            .addField('» المرسل : ', `${message.author.username}#${message.author.discriminator}`)
-            .addField(' » الرسالة : ', args)
+            .addField('» سيرفر الفا لالعاب الحاسوب :', `${message.guild.name}`)
+            .addField('» server alfa : ', `${message.author.username}#${message.author.discriminator}`)
+            .addField(' » منورين اعضائنا الكرام للتواجد بالسيرفر في غرفة العمليات لرغض عمل تيمات بكافة العاب الحاسوب : ', args)
             .setColor('#000000')
             // m.send(`[${m}]`);
             m.send(`${m}`,{embed: bc});
